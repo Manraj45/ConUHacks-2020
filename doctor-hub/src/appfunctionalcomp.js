@@ -1,9 +1,12 @@
-import React, {Component} from 'react';
-import Patients from './components/Patients';
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-class DoctorHub extends Component{
+
+function Patient(){
+  
+  
+}
   render() {
     return (
       <Patients patients={this.state.patients} />
